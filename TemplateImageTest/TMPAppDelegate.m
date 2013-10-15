@@ -12,7 +12,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // Uncomment to turn all the template images red
+//    self.window.tintColor = [UIColor redColor];
     return YES;
 }
 							

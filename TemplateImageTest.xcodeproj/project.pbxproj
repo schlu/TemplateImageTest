@@ -14,7 +14,6 @@
 		8A0B0D8D180D845200A61B3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0B0D8C180D845200A61B3B /* main.m */; };
 		8A0B0D91180D845200A61B3B /* TMPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0B0D90180D845200A61B3B /* TMPAppDelegate.m */; };
 		8A0B0D94180D845200A61B3B /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0B0D92180D845200A61B3B /* Main_iPhone.storyboard */; };
-		8A0B0D97180D845200A61B3B /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0B0D95180D845200A61B3B /* Main_iPad.storyboard */; };
 		8A0B0D9A180D845200A61B3B /* TMPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0B0D99180D845200A61B3B /* TMPViewController.m */; };
 		8A0B0D9C180D845200A61B3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0B0D9B180D845200A61B3B /* Images.xcassets */; };
 		8A0B0DA3180D845200A61B3B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0B0DA2180D845200A61B3B /* XCTest.framework */; };
@@ -22,6 +21,7 @@
 		8A0B0DA5180D845200A61B3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A0B0D84180D845200A61B3B /* UIKit.framework */; };
 		8A0B0DAD180D845200A61B3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A0B0DAB180D845200A61B3B /* InfoPlist.strings */; };
 		8A0B0DAF180D845200A61B3B /* TemplateImageTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0B0DAE180D845200A61B3B /* TemplateImageTestTests.m */; };
+		8A0B0DB9180D850700A61B3B /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A0B0DB8180D850700A61B3B /* check@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +46,6 @@
 		8A0B0D8F180D845200A61B3B /* TMPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMPAppDelegate.h; sourceTree = "<group>"; };
 		8A0B0D90180D845200A61B3B /* TMPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMPAppDelegate.m; sourceTree = "<group>"; };
 		8A0B0D93180D845200A61B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		8A0B0D96180D845200A61B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		8A0B0D98180D845200A61B3B /* TMPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TMPViewController.h; sourceTree = "<group>"; };
 		8A0B0D99180D845200A61B3B /* TMPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMPViewController.m; sourceTree = "<group>"; };
 		8A0B0D9B180D845200A61B3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -55,6 +54,7 @@
 		8A0B0DAA180D845200A61B3B /* TemplateImageTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TemplateImageTestTests-Info.plist"; sourceTree = "<group>"; };
 		8A0B0DAC180D845200A61B3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A0B0DAE180D845200A61B3B /* TemplateImageTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateImageTestTests.m; sourceTree = "<group>"; };
+		8A0B0DB8180D850700A61B3B /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,9 +117,9 @@
 				8A0B0D8F180D845200A61B3B /* TMPAppDelegate.h */,
 				8A0B0D90180D845200A61B3B /* TMPAppDelegate.m */,
 				8A0B0D92180D845200A61B3B /* Main_iPhone.storyboard */,
-				8A0B0D95180D845200A61B3B /* Main_iPad.storyboard */,
 				8A0B0D98180D845200A61B3B /* TMPViewController.h */,
 				8A0B0D99180D845200A61B3B /* TMPViewController.m */,
+				8A0B0DB8180D850700A61B3B /* check@2x.png */,
 				8A0B0D9B180D845200A61B3B /* Images.xcassets */,
 				8A0B0D87180D845200A61B3B /* Supporting Files */,
 			);
@@ -232,7 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A0B0D97180D845200A61B3B /* Main_iPad.storyboard in Resources */,
+				8A0B0DB9180D850700A61B3B /* check@2x.png in Resources */,
 				8A0B0D9C180D845200A61B3B /* Images.xcassets in Resources */,
 				8A0B0D94180D845200A61B3B /* Main_iPhone.storyboard in Resources */,
 				8A0B0D8B180D845200A61B3B /* InfoPlist.strings in Resources */,
@@ -293,14 +293,6 @@
 				8A0B0D93180D845200A61B3B /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		8A0B0D95180D845200A61B3B /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8A0B0D96180D845200A61B3B /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		8A0B0DAB180D845200A61B3B /* InfoPlist.strings */ = {
@@ -397,6 +389,7 @@
 				GCC_PREFIX_HEADER = "TemplateImageTest/TemplateImageTest-Prefix.pch";
 				INFOPLIST_FILE = "TemplateImageTest/TemplateImageTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -410,6 +403,7 @@
 				GCC_PREFIX_HEADER = "TemplateImageTest/TemplateImageTest-Prefix.pch";
 				INFOPLIST_FILE = "TemplateImageTest/TemplateImageTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
